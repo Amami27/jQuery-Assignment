@@ -7,24 +7,30 @@
 </head>
 
 <body>
+
     <form>
-        <input type="text" id="name" placeholder="Name">
-        <input type="text" id="email" placeholder="Email Address">
+        <input type="text" id="movie" placeholder="Type a movie">
+        <select name="ratings" id="num-ratings">
+            <option value="0">Select Ratings</option>
+            <option value="1 Star">1 Star</option>
+            <option value="2 Star">2 Star</option>
+            <option value="3 Star">3 Star</option>
+        </select>
         <input type="button" class="add-row" value="Add Row">
+
     </form>
     <table>
         <thead>
             <tr>
                 <th>Select</th>
                 <th>Name</th>
-                <th>Email</th>
+                <th>Ratings</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><input type="checkbox" name="record"></td>
-                <td>Amami Tejiri</td>
-                <td>amamitejiri27@gmail.com</td>
+                <td>Nobody's Fool</td>
             </tr>
         </tbody>
     </table>

@@ -15,3 +15,7 @@ table td {
     padding: 5px;
     text-align: left;
 }
+
+select {
+    margin-left: 2em;
+}
